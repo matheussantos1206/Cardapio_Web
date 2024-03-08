@@ -1,9 +1,42 @@
-h1{
-    text-align: center;
-    background-color: darkorange;
-    padding: 20px;
-    margin: 20px;
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
-    background-color: gold;
+
+header {
+    background-color: darkorange;
+    text-align: center;
+    height: 5em;
+    justify-content: center;
+
+}
+
+body {
+    background-image: url("/capa\ para\ cardapio.jpg");
+    background-repeat: no-repeat;
+}
+
+table {
+    border: solid 1px rgb(0, 0, 0);
+    width: 1000px;
+
+}
+
+tr {
+    font-family:serif;
+    font-size: 23px;
+
+}
+tr:nth-child(even) {
+    background-color: rgb(187, 14, 14);
+}
+
+.cardapio {
+    display: flex;
+    margin-right: auto;
+    width: 30em;
+
+}
+img{
+    width: 1000px;
 }
