@@ -12,7 +12,7 @@ header {
 }
 
 body {
-    background-image: url("/capa\ para\ cardapio.jpg");
+    background-image: url("./capa-cardapio.jpg");
     background-repeat: no-repeat;
 }
 
